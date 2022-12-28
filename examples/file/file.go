@@ -5,20 +5,13 @@ import (
 	"github.com/projectdiscovery/gologger/formatter"
 	"github.com/projectdiscovery/gologger/levels"
 	"github.com/projectdiscovery/gologger/writer"
-	"os"
 	"strconv"
 )
 
 func main() {
-	fname := "gologger.txt"
-	f, err := os.OpenFile(fname, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600)
-	if err != nil {
-		return
-	}
-	defer f.Close()
 	gologger.DefaultLogger.SetMaxLevel(levels.LevelDebug)
 	gologger.DefaultLogger.SetFormatter(formatter.NewCLI(true))
-	gologger.DefaultLogger.SetWriter(writer.NewLogFile(f))
+	gologger.DefaultLogger.SetWriter(writer.NewLogFile("gologger.txt"))
 	gologger.Print().Msgf("\tgologger: sample test\t\n")
 	gologger.Info().Str("user", "pdteam").Msg("running simulation program")
 	for i := 0; i < 10; i++ {

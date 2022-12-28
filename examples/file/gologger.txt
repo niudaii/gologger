@@ -1,20 +1,4 @@
 	gologger: sample test	
-[[34mINF[0m] running simulation program [1muser[0m=pdteam
-[[34mINF[0m] running simulation step... [1mcount[0m=0
-[[34mINF[0m] running simulation step... [1mcount[0m=1
-[[34mINF[0m] running simulation step... [1mcount[0m=2
-[[34mINF[0m] running simulation step... [1mcount[0m=3
-[[34mINF[0m] running simulation step... [1mcount[0m=4
-[[34mINF[0m] running simulation step... [1mcount[0m=5
-[[34mINF[0m] running simulation step... [1mcount[0m=6
-[[34mINF[0m] running simulation step... [1mcount[0m=7
-[[34mINF[0m] running simulation step... [1mcount[0m=8
-[[34mINF[0m] running simulation step... [1mcount[0m=9
-[[35mDBG[0m] planner running [1mstate[0m=running
-[[35mDBG[0m] [2022-12-28 11:24:46] with timestamp event [1mstate[0m=running
-[[33mWRN[0m] could not run [1mstate[0m=errored [1mstatus[0m=404
-[[1;31mFTL[0m] bye bye
-	gologger: sample test	
 [INF] running simulation program user=pdteam
 [INF] running simulation step... count=0
 [INF] running simulation step... count=1
@@ -27,22 +11,6 @@
 [INF] running simulation step... count=8
 [INF] running simulation step... count=9
 [DBG] planner running state=running
-[DBG] [2022-12-28 11:32:48] with timestamp event state=running
-[WRN] could not run state=errored status=404
-[FTL] bye bye
-	gologger: sample test	
-[INF] running simulation program user=pdteam
-[INF] running simulation step... count=0
-[INF] running simulation step... count=1
-[INF] running simulation step... count=2
-[INF] running simulation step... count=3
-[INF] running simulation step... count=4
-[INF] running simulation step... count=5
-[INF] running simulation step... count=6
-[INF] running simulation step... count=7
-[INF] running simulation step... count=8
-[INF] running simulation step... count=9
-[DBG] planner running state=running
-[DBG] [2022-12-28 11:33:11] with timestamp event state=running
+[DBG] [2022-12-28 11:57:46] with timestamp event state=running
 [WRN] could not run state=errored status=404
 [FTL] bye bye
