@@ -1,0 +1,13 @@
+{"msg":"\tgologger: sample test\t","timestamp":"2022-12-28T02:29:04+0000"}
+{"level":"INF","msg":"running simulation program","timestamp":"2022-12-28T02:29:04+0000","user":"pdteam"}
+{"count":"0","level":"INF","msg":"running simulation step...","timestamp":"2022-12-28T02:29:04+0000"}
+{"count":"1","level":"INF","msg":"running simulation step...","timestamp":"2022-12-28T02:29:04+0000"}
+{"count":"2","level":"INF","msg":"running simulation step...","timestamp":"2022-12-28T02:29:04+0000"}
+{"count":"3","level":"INF","msg":"running simulation step...","timestamp":"2022-12-28T02:29:04+0000"}
+{"count":"4","level":"INF","msg":"running simulation step...","timestamp":"2022-12-28T02:29:04+0000"}
+{"count":"5","level":"INF","msg":"running simulation step...","timestamp":"2022-12-28T02:29:04+0000"}
+{"count":"6","level":"INF","msg":"running simulation step...","timestamp":"2022-12-28T02:29:04+0000"}
+{"count":"7","level":"INF","msg":"running simulation step...","timestamp":"2022-12-28T02:29:04+0000"}
+{"count":"8","level":"INF","msg":"running simulation step...","timestamp":"2022-12-28T02:29:04+0000"}
+{"count":"9","level":"INF","msg":"running simulation step...","timestamp":"2022-12-28T02:29:04+0000"}
+{"level":"FTL","msg":"bye bye","timestamp":"2022-12-28T02:29:04+0000"}

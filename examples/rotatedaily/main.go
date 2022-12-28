@@ -19,7 +19,8 @@ func main() {
 	}
 	gologger.DefaultLogger.SetWriter(filewriterWithRotation)
 	for {
-		time.Sleep(100 * time.Millisecond)
 		gologger.Print().Msgf("%s\n", time.Now().String())
+		gologger.Silent().Msgf("%s\n", time.Now().String())
+		time.Sleep(100 * time.Millisecond)
 	}
 }
